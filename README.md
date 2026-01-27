@@ -21,5 +21,10 @@ Planned structure:
 - figures/   : code used to generate manuscript figures
 - metadata/  : variable descriptions and templates
 
+## How to use the scripts (high level)
+The scripts in `scripts/` are parameterised: the same analysis code is reused across different
+explanatory variables (e.g. intervention arm, mother's own milk intake, macronutrient exposures)
+by changing the input arguments (e.g. `group_var` / `color_var`).
+
 ## Notes
 This repository is intended to support transparency and reproducibility of the published analyses.
