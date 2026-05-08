@@ -1,9 +1,9 @@
 # n-forte-preterm-gut-microbiota
-Analysis code for longitudinal gut microbiota profiling in extremely preterm infants (N-Forte trial)
+Analysis code for longitudinal gut microbiota profiling in extremely preterm infants (N-forte trial)
 
 
 This repository contains analysis code associated with a multicentre randomized controlled trial
-investigating longitudinal gut microbiota development in extremely preterm infants (N-Forte trial).
+investigating longitudinal gut microbiota development in extremely preterm infants (N-forte trial).
 
 Infants were randomized to receive either a bovine-protein based or a human milk–derived (Prolacta) fortifier
 and followed longitudinally during the neonatal period. Gut microbiota samples were collected at
