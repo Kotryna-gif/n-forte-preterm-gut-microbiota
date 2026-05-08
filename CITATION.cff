@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite the associated manuscript and this repository."
-title: "N-Forte preterm gut microbiota analysis code"
+title: "Nutritional and temporal factors influence gut microbiota assembly in extremely preterm infants: insights from the longitudinal randomized N-forte trial"
 type: software
 authors:
   - family-names: "Simonyte Sjodin"
