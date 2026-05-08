@@ -14,6 +14,30 @@
 library(phyloseq)
 library(ggplot2)
 
+
+# Example usage:
+# arm_cols <- c(
+#   "Prolact+6 H2MF arm" = "#0072B2",
+#   "Bovine protein arm" = "#D55E00"
+# )
+#
+# p_all <- plot_alpha_shannon(
+#   physeq,
+#   group_var = "ARM",
+#   time_var = "Time",
+#   time_level = NULL,
+#   facet = TRUE,
+#   palette = arm_cols
+# )
+#
+# p_all
+
+
+
+
+
+
+
 plot_alpha_shannon <- function(physeq,
                                group_var = "ARM",
                                time_var  = "Time",
@@ -72,17 +96,22 @@ plot_alpha_shannon <- function(physeq,
   p
 }
 
-# Example: your original “all time points faceted”
-arm_cols <- c(
-  "Prolact+6 H^2MF arm" = "#0072B2",
-  "Bovine protein arm" = "#D55E00"
-)
 
-p_all <- plot_alpha_shannon(physeq, group_var = "ARM", time_var = "Time",
-                            time_level = NULL, facet = TRUE, palette = arm_cols)
-p_all
+
+
+# Example: your original “all time points faceted”
+# arm_cols <- c(
+#  "Prolact+6 H^2MF arm" = "#0072B2",
+#  "Bovine protein arm" = "#D55E00"
+# )
+
+# p_all <- plot_alpha_shannon(physeq, group_var = "ARM", time_var = "Time",
+#                            time_level = NULL, facet = TRUE, palette = arm_cols)
+
+# p_all
 
 # Example: single time point (replaces per-time scripts)
-p_day1_to_7 <- plot_alpha_shannon(physeq, group_var = "ARM", time_var = "Time",
-                            time_level = "day_1_to_7", palette = arm_cols)
-p_day1_to_7
+# p_day1_to_7 <- plot_alpha_shannon(physeq, group_var = "ARM", time_var = "Time",
+#                            time_level = "day_1_to_7", palette = arm_cols)
+
+# p_day1_to_7
