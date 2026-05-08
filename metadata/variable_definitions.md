@@ -37,6 +37,5 @@ scripts. No sample-level metadata or values are provided here.
 
 ## Notes
 
-- All variables are stored in the `sample_data` component of the phyloseq object.
-- Full sample metadata are deposited via the corresponding SRA/BioSample records.
-- This repository does not contain individual-level clinical or identifying data.
+Sample-level sequencing metadata are deposited via the corresponding SRA/BioSample records. 
+This repository does not contain individual-level clinical or identifying data.
