@@ -9,20 +9,20 @@ Infants were randomized to receive either a bovine-protein based or a human milk
 and followed longitudinally during the neonatal period. Gut microbiota samples were collected at
 five weekly time points.
 
-Raw sequencing data are deposited in NCBI SRA (accession pending).
+Raw sequencing data are deposited in NCBI SRA BioProject:PRJNA1415696.
 
 ## Repository contents
 This repository provides scripts and documentation used for microbiota analyses reported in the
 associated manuscript. No raw sequencing data or identifiable clinical data are included.
 
-Planned structure:
+Structure:
 - scripts/   : analysis scripts (R)
 - figures/   : code used to generate manuscript figures
 - metadata/  : variable descriptions and templates
 
 ## How to use the scripts (high level)
 The scripts in `scripts/` are parameterised: the same analysis code is reused across different
-explanatory variables (e.g. intervention arm, mother's own milk intake, macronutrient exposures)
+explanatory variables (e.g. intervention group, mother's own milk intake, macronutrient exposures)
 by changing the input arguments (e.g. `group_var` / `color_var`).
 
 
