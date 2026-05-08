@@ -5,8 +5,8 @@ scripts. No sample-level metadata or values are provided here.
 
 ## Core variables
 
-- **ARM**  
-  Intervention arm in the N-Forte randomized controlled trial.  
+- **Intervention group**  
+  Intervention group in the N-forte randomized controlled trial.  
   Infants were randomized to receive either a bovine-based fortifier or a
   human milk–derived fortifier (Prolacta).
 
@@ -17,7 +17,8 @@ scripts. No sample-level metadata or values are provided here.
   - day 8–14  
   - day 15–21  
   - day 22–28  
-  - gw34
+  - gw 33+0–33+6
+
 
 - **Delivery_mode**  
   Mode of delivery at birth.  
